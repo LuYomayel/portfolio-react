@@ -3,16 +3,16 @@ function WorkExperience() {
     // Aquí puedes agregar tus proyectos destacados
     const projects = [
         { 
-            company: "Stock management system",
+            company: "Dolibarr ERP & CRM System for Warehouse Management",
             role: "Full Stack Developer",
-            dates: "Aug 2023 - actual",
-            description: "I am currently engaged in developing an integrated stock and order/shipping management system using the Dolibarr tool. This solution is hosted on Digital Ocean for optimal performance and constant availability, ensuring efficient stock and shipping processes for this company." 
+            dates: "Aug 2023 - Present",
+            description: "Configured and customized Dolibarr ERP & CRM for inventory, order, and logistics management. Handled installation, configuration, and code modification for client-specific needs. Implemented the system on a dedicated server for optimal warehouse management." 
         },
         { 
             company: "Join Solutions",
-            role: "Full Stack Developer",
+            role: "Full Stack Web Developer",
             dates: "Jan 2022 - Jun 2023",
-            description: "I crafted web applications from the ground up, combining Angular for dynamic front-ends, Nest.js for robust back-ends, and SQL Server for data management. This effort led to the successful completion of 2 projects, elevating client satisfaction. I also bolstered security across 5 applications by developing RESTful APIs with Express.js and secured 3 additional project contracts by tailoring solutions to client specifications. My dedication to daily client communication fostered strong relationships. " 
+            description: "Led and successfully delivered major web application projects using Angular, Nest.js, and SQL Server, enhancing client satisfaction and project delivery efficiency. Developed and secured RESTful APIs with Express.js, improving security and performance. Managed custom project development from client documentation, securing additional contracts. Facilitated client communications and provided regular progress updates. Mentored junior developers, ensuring project deadlines and quality standards. Implemented Agile Scrum methodologies to optimize project timelines and productivity." 
         },
     ];
 
