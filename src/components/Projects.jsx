@@ -3,6 +3,13 @@ function Projects() {
     // Aquí puedes agregar tus Projects destacados
     const personalProjects = [
         { 
+            name: "Mobile App for Personal Trainers",
+            type: "Mobile Application",
+            dates: "Aug 2023 - Present",
+            description: "Developing a mobile app for personal trainers to send personalized workout routines. Features include progress tracking and integrated chat for trainer-student communication.",
+            url: "" // Add URL if available
+        },
+        { 
             name: "Secondary School Course Schedule Management Platform",
             type: "Web Application",
             dates: "March 2023 - Present",
@@ -12,17 +19,11 @@ function Projects() {
         { 
             name: "Handball Statistics Page",
             type: "Web Application",
-            dates: "May 2023 - Present",
+            dates: "May 2023 - Jun 2023",
             description: "Created a web application for displaying handball player statistics and fair play tables. Attracted over 10k monthly visits, becoming a popular resource for handball enthusiasts.",
             url: "https://goleadores.handball-metropolitano.com/"
         },
-        { 
-            name: "Mobile App for Personal Trainers",
-            type: "Mobile Application",
-            dates: "[Start Date] - Present",
-            description: "Developing a mobile app for personal trainers to send personalized workout routines. Features include progress tracking and integrated chat for trainer-student communication.",
-            url: "" // Add URL if available
-        },
+        
     ];
 
     return (
@@ -30,12 +31,21 @@ function Projects() {
             <p className="medium-title">Projects</p>
             {personalProjects.map(project => (
                 <div key={project.name} className=" project-div card">
-                    <a  href={project.url}>
-                        <p className="project-name">{project.name}</p>
-                        <p className="project-type">{project.type}</p>
-                        <p className="project-dates">{project.dates}</p>
-                        <p className="text"> {project.description}</p>
-                    </a>
+                    {project.url ? (
+                        <a href={project.url}>
+                            <p className="project-name">{project.name}</p>
+                            <p className="project-type">{project.type}</p>
+                            <p className="project-dates">{project.dates}</p>
+                            <p className="text">{project.description}</p>
+                        </a>
+                    ) : (
+                        <div style={{ pointerEvents: "none" }}>
+                            <p className="project-name">{project.name}</p>
+                            <p className="project-type">{project.type}</p>
+                            <p className="project-dates">{project.dates}</p>
+                            <p className="text">{project.description}</p>
+                        </div>
+                    )}
                 </div>
             ))}
         </section>
