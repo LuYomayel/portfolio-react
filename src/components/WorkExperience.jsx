@@ -12,7 +12,7 @@ function WorkExperience() {
             company: "Join Solutions",
             role: "Full Stack Web Developer",
             dates: "Jan 2022 - Jun 2023",
-            description: "Led and successfully delivered major web application projects using Angular, Nest.js, and SQL Server, enhancing client satisfaction and project delivery efficiency. Developed and secured RESTful APIs with Express.js, improving security and performance. Managed custom project development from client documentation, securing additional contracts. Facilitated client communications and provided regular progress updates. Mentored junior developers, ensuring project deadlines and quality standards. Implemented Agile Scrum methodologies to optimize project timelines and productivity." 
+            description: "Led and successfully delivered major web application projects using Angular, Nest.js, and SQL Server, enhancing client satisfaction and project delivery efficiency. Developed and secured RESTful APIs with Express.js, improving security and performance. Managed custom project development from client documentation, securing additional contracts. Facilitated client communications and provided regular progress updates. Implemented Agile Scrum methodologies to optimize project timelines and productivity." 
         },
     ];
 
