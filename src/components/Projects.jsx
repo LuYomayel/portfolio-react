@@ -5,8 +5,8 @@ function Projects() {
             name: "EaseTrain - Web Application for Personal Trainers",
             type: "Web Application",
             dates: "Aug 2023 - Present",
-            description: "Developed the first version of EaseTrain, a web application for personal trainers. Features include personalized workout routines, progress tracking, and integrated chat for trainer-student communication. Utilized React, Node.js, MongoDB, and AWS for development and deployment.",
-            url: "trainease.luciano-yomayel.com" // Add URL if available
+            description: "Developed the first version of EaseTrain, a web application for personal trainers. Features include personalized workout routines, progress tracking, and integrated chat for trainer-student communication. Utilized React, Nest.js, MySQL, and Digital Ocean for development and deployment.",
+            url: "https://trainease.luciano-yomayel.com" // Add URL if available
         },
         { 
             name: "Secondary School Course Schedule Management Platform",
